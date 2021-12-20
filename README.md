@@ -28,13 +28,17 @@ docker run -p 5000:5000 -i borisovalexey/mmp_practicum_3:prac_3
 Пользователю необходимо выбрать csv-файл, содержащий датасет, на котором он хочет обучить модель.
 Также при желании можно указать датасет для валидации.
 
-<img src="https://github.com/Alexey-Borisov/Practical-Task-3/blob/main/assets/web_1.png" width="400" height="400" />
+![alt text](https://github.com/Alexey-Borisov/Practical-Task-3/blob/main/assets/web_1.png?raw=true)
 
 После обучения модели можно передать в виде csv-файла датасет содержащий данные аналогичные тем, что использовались для обучения, но без столбца
 целевой переменной. После предсказания у пользователя есть возможность скачать предсказание модели в виде csv-файла.
 
+![alt text](https://github.com/Alexey-Borisov/Practical-Task-3/blob/main/assets/web_2.png?raw=true)
+
 Кроме этого пользователь может посотреть параметры модели, а также потери на валидационной выборке. Также имеется возможность загрузить более подробную
 информацию о потерях на валидационной выборке.
+![alt text](https://github.com/Alexey-Borisov/Practical-Task-3/blob/main/assets/web_3.png?raw=true)
+![alt text](https://github.com/Alexey-Borisov/Practical-Task-3/blob/main/assets/web_4.png?raw=true)
 
 Если пользователь хочет обучить новую модель, он может приступить к этом нажав кнопку "Создание новой модели".
 
