@@ -41,7 +41,7 @@ docker run -p 5000:5000 -i borisovalexey/mmp_practicum_3:prac_3
 ![alt text](https://github.com/Alexey-Borisov/Practical-Task-3/blob/main/assets/web_3.png?raw=true)
 ![alt text](https://github.com/Alexey-Borisov/Practical-Task-3/blob/main/assets/web_4.png?raw=true)
 
-Если пользователь хочет обучить новую модель, он может приступить к этом нажав кнопку "Создание новой модели".
+Если пользователь хочет обучить новую модель, он может приступить к этому нажав кнопку "Создание новой модели".
 
 
 ## Тестирование
