@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+<br><br>
+<center>
+    Параметры модели: <br>
+    Тип модели: {{model_type}} <br>
+     Число деревьев: {{n_estimators}} <br>
+     Максимальная глубина дерева: {{max_depth}} <br>
+     Размерность подвыборки признаков: {{feature_subsample_size}} <br>
+     Темп обучения: {{learning_rate}} <br>
+    <br>
+    Параметры датасета: <br>
+    Целевая переменная: {{target_column}} <br>
+<div class="container">
+      {{ wtf.quick_form(form) }}
+</div>
+</center>
+
+{% endblock %}
