@@ -37,6 +37,7 @@ docker run -p 5000:5000 -i borisovalexey/mmp_practicum_3:prac_3
 
 Кроме этого пользователь может посотреть параметры модели, а также потери на валидационной выборке. Также имеется возможность загрузить более подробную
 информацию о потерях на валидационной выборке. При необходимости получить информацию об изменении значений функции потерь на обучающей во время обучения можно в качестве валидационной выборки еще раз передать обучающую.
+
 ![alt text](https://github.com/Alexey-Borisov/Practical-Task-3/blob/main/assets/web_3.png?raw=true)
 ![alt text](https://github.com/Alexey-Borisov/Practical-Task-3/blob/main/assets/web_4.png?raw=true)
 
