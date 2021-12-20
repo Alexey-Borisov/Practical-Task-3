@@ -1,1 +1,1 @@
-docker build -t repo_name/image_name:image_name .
+docker build -t borisovalexey/mmp_practicum_3:prac_3 .
